@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(165, 223, 178);
+}
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
+:root{
+    --font-android: 'Android', cursive;
+    --cor0: #89CDA5;
+	--cor2: #5CBE7D;
+	--cor3: #1A5A37;
+}
+
+header{
+    background-color: rgb(180, 235, 180);
+    height: 100px;
+    margin: 16px;
+	padding: 13px;
+    color: #274631;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+    border-radius: 20px;
+    text-align: center;
+    font-family: var(--font-android);
+}
+
+header >h1{
+    margin: 30px;
+    border-radius: 7px;
+}
+
+main {
+    background-color: rgb(180, 235, 180);
+    text-align: center;
+    width: 882px;
+    padding: 35px;
+    border-radius: 22px 22px 22px 22px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -33%);
+    font-size: 1.1em;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+main p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+main h1{
+    font-family: var(--font-android);
+    background-image:  linear-gradient(to right, #aef7c6, #caffdc);
+    }
+
+main a{
+    text-decoration: none;
+    color: green;
+    font-size: 1.5em;
+}
+
+main a:hover{
+    background-color: rgb(132, 204, 132);
+    font-size: 2em;
+}
+
+aside{
+    background-image:  linear-gradient(to right, #aef7c6, #caffdc);
+    padding: 22px;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.062);
+}
+
+#id{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#id:hover{
+    font-size: 1.2em;
+}
