@@ -8,10 +8,11 @@ header {
     background-color: rgb(180, 235, 180);
     color: #274631;
     text-align: center;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
-    margin-bottom: 20px; /* Espaço inferior para evitar sobreposição */
+    margin-bottom: 30px; 
 }
 header h1 {
     margin: 0;
@@ -22,7 +23,7 @@ header h1 {
 main {
     background-color: rgb(180, 235, 180);
     padding: 10px;
-    margin-top: 20px; /* Espaço superior para evitar sobreposição */
+    margin-top: 20px;
 }
 aside {
     background: linear-gradient(to right, #aef7c6, #caffdc);
